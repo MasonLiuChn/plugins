@@ -55,4 +55,11 @@ class JavaScriptChannel {
       platformThreadHandler.post(postMessageRunnable);
     }
   }
+  
+  // Suppressing unused warning as this is invoked from JavaScript.
+  @SuppressWarnings("unused")
+  @JavascriptInterface
+  public void exec(final String message) {
+    postMessage(message);
+  }
 }
