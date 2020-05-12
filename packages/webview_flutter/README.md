@@ -2,7 +2,7 @@
 
 [![pub package](https://img.shields.io/pub/v/webview_flutter.svg)](https://pub.dartlang.org/packages/webview_flutter)
 
-A Flutter plugin that provides a WebView widget.
+A Flutter plugin that provides a WebView widget .
 
 On iOS the WebView widget is backed by a [WKWebView](https://developer.apple.com/documentation/webkit/wkwebview);
 On Android the WebView widget is backed by a [WebView](https://developer.android.com/reference/android/webkit/WebView).
